@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
-
+console.log("this is a demo chatbot");
 const { ActivityHandler, MessageFactory } = require('botbuilder');
 
 class EchoBot extends ActivityHandler {
